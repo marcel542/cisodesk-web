@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — CISO Desk</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="mark.svg">
+</head>
+<body>
+<main>
+  <header>
+    <img src="mark.svg" alt="" width="52" height="52">
+    <div>
+      <div class="name">CISO Desk</div>
+      <div class="tagline">Know what matters. Know what you missed.</div>
+    </div>
+  </header>
+
+  <h1>Privacy</h1>
+  <p class="lead">CISO Desk collects nothing. There is no account, no server of ours,
+     and no analytics. This page explains what that means in practice.</p>
+  <p class="meta">Last updated 19 September 2026 · applies to version 0.1 and later</p>
+
+  <div class="card">
+    <p><strong>The short version.</strong> Everything you put into the app stays in one
+       database on your iPhone. We cannot see it, we have no way to request it, and
+       there is nothing to delete on our side because nothing ever arrives there.</p>
+  </div>
+
+  <h2>What the app stores, and where</h2>
+  <p>Your profile, the facts and rules you teach it, obligations, evidence, actions,
+     findings, risks, decisions, documents you import, and anything waiting in the
+     Inbox are held in a single database inside the app's own storage on your device.
+     iOS encrypts it at rest. The app has no sync, no backup service of its own and no
+     iCloud integration.</p>
+  <p>A small shared folder is used to hand items over from the share extension and from
+     Shortcuts to the app. Those files are deleted as soon as the app has read them.</p>
+
+  <h2>What the app can read, and only if you allow it</h2>
+  <table>
+    <tr>
+      <th>Calendar</th>
+      <td>Read, to prepare meeting briefs and show what is coming. Events are read
+          while the app is open and are not copied out of the calendar. Off until you
+          switch it on.</td>
+    </tr>
+    <tr>
+      <th>Reminders</th>
+      <td>Write only, and only for actions you explicitly accept. Off until you switch
+          it on.</td>
+    </tr>
+    <tr>
+      <th>Files you share or import</th>
+      <td>Read on device to extract text. Screenshots are read with on-device text
+          recognition. The original file is not copied into the app.</td>
+    </tr>
+    <tr>
+      <th>Face ID or Touch ID</th>
+      <td>Used only to unlock the app, if you turn that on. Biometric data never leaves
+          the Secure Enclave and is never available to the app.</td>
+    </tr>
+  </table>
+
+  <h2>The language model</h2>
+  <p>By default the app uses Apple's on-device foundation model. Text you give it is
+     processed on the iPhone and does not leave it.</p>
+  <p>You can optionally allow Apple's <strong>Private Cloud Compute</strong> for long
+     documents, which the on-device model cannot hold in one piece. That setting is off
+     unless you turn it on. When it is on, the text of the document being analysed is
+     sent to Apple's Private Cloud Compute, where Apple states the data is not retained
+     and is not accessible to Apple. It is not sent to us, and we receive nothing either
+     way.</p>
+  <p>The app contains no third-party SDKs, no advertising or attribution libraries, and
+     makes no network requests of its own.</p>
+
+  <h2>What we collect</h2>
+  <p>Nothing. No usage statistics, no crash reporting, no device identifiers, no
+     contact details. The App Store privacy label for this app declares no data
+     collection, and that is the whole story rather than a summary of it.</p>
+
+  <h2>Children</h2>
+  <p>The app is a professional tool and is not directed at children.</p>
+
+  <h2>Deleting your data</h2>
+  <p>Settings → Privacy and data → <em>Delete everything</em> removes the database and
+     its journal files, anything waiting from a share, any keychain items and every
+     scheduled reminder. Deleting the app from your iPhone removes all of it as well.
+     Because nothing is held anywhere else, there is no separate request to make.</p>
+
+  <h2>Changes</h2>
+  <p>If a future version does something materially different with your data, this page
+     will say so and will carry a new date. Anything that would send data anywhere will
+     be off by default and will ask first.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:marcel@lightspeedconsulting.ai">marcel@lightspeedconsulting.ai</a></p>
+
+  <footer>
+    <p>CISO Desk is made by Lightspeed Consulting.
+       <a href="index.html">Overview</a> ·
+       <a href="privacy.html">Privacy</a> ·
+       <a href="support.html">Support</a></p>
+  </footer>
+</main>
+</body>
+</html>

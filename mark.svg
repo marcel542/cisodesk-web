@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="52" height="52" role="img" aria-label="CISO Desk">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b689c"/>
+      <stop offset="1" stop-color="#0f2d4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#g)"/>
+  <g>
+    <circle cx="181" cy="314" r="42" fill="#ffb340"/>
+    <rect x="285" y="282" width="600" height="64" rx="32" fill="#fff"/>
+    <circle cx="181" cy="512" r="42" fill="#fff"/>
+    <rect x="285" y="480" width="460" height="64" rx="32" fill="#fff" opacity="0.84"/>
+    <circle cx="181" cy="710" r="42" fill="#fff" opacity="0.41"/>
+    <rect x="285" y="678" width="320" height="64" rx="32" fill="#fff" opacity="0.59"/>
+  </g>
+</svg>
